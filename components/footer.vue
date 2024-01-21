@@ -1,3 +1,3 @@
 <template>
-    <p class="footer">footer works!</p>
+  <p class="footer">footer works!</p>
 </template>
