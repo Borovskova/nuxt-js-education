@@ -1,75 +1,85 @@
-# Nuxt 3 Minimal Starter
+# Nuxt.js Education
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A practical project built with Nuxt.js and Vue.js, designed to serve as a hands-on educational resource for modern frontend development concepts.
 
-## Setup
+## 🌟 Goal: Education
 
-Make sure to install the dependencies:
+This project is created specifically as an educational tool. Its primary aim is to provide a live codebase and interactive environment for learning key aspects of **Nuxt.js** and **Vue.js**, including:
+
+*   Understanding the **Nuxt directory structure** (`pages`, `components`, `layouts`, `static`, `assets`, etc.).
+*   Implementing **routing** using Nuxt's file-based routing system.
+*   Creating reusable **Vue components**.
+*   Exploring **data fetching** strategies (e.g., using `asyncData` or `fetch` in Nuxt).
+*   Working with **layouts** to define common UI structures.
+*   Understanding the core concepts of **Vue reactivity** and component lifecycle.
+
+
+By exploring the code and interacting with the running application, learners can gain practical insight into building applications with the Nuxt/Vue ecosystem.
+
+## ✨ Features
+
+This project demonstrates the following key functionalities:
+
+*   Basic Nuxt application setup.
+*   Multiple pages utilizing Nuxt's routing.
+*   Example usage of reusable Vue components.
+*   Demonstration of data fetching (e.g., fetching data from a public API).
+*   Implementation of different layouts.
+*   Navigation between pages.
+
+## 🚀 Technologies Used
+
+*   **Vue.js:** The progressive JavaScript framework.
+*   **Nuxt.js:** The intuitive Vue framework for server-side rendering, static site generation, and more.
+*   **Node.js:** JavaScript runtime environment.
+*   **npm or yarn:** Package managers.
+*   HTML, CSS, JavaScript: Standard web technologies.
+
+
+### Prerequisites
+
+Make sure you have Node.js installed on your system (includes npm). You can check with:
 
 ```bash
-# npm
+node -v
+npm -v
+
+
+(or yarn -v if using yarn)
+
+Installation
+
+Clone the repository:
+git clone https://github.com/Borovskova/nuxt-js-education.git
+
+
+Install dependencies:
+
 npm install
+# or
+# yarn install
 
-# pnpm
-pnpm install
+Running the Application
 
-# yarn
-yarn install
+Run in development mode:
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
+# or
+# yarn dev
 
-# pnpm
-pnpm run dev
+Access the application:
 
-# yarn
-yarn dev
+Open your web browser and go to:
 
-# bun
-bun run dev
-```
+http://localhost:3000/
 
-## Production
 
-Build the application for production:
+📚 Learning Resources
 
-```bash
-# npm
-npm run build
+Nuxt.js Documentation: https://nuxt.com/docs
 
-# pnpm
-pnpm run build
+Vue.js Documentation: https://vuejs.org/guide/introduction.html
 
-# yarn
-yarn build
+🤝 Contributing
 
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+While this project is primarily for personal education, feel free to open issues or submit pull requests if you have suggestions or improvements that align with the educational goal.
